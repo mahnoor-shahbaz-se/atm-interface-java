@@ -73,7 +73,6 @@ This project implements the **State Design Pattern**:
 
 ### ✅ Step 2 — Download the Project
 Open **Command Prompt** (search CMD in Windows search bar) and paste this:
-
 ```bash
 git clone https://github.com/mahnoor-shahbaz-se/atm-interface-java.git
 ```
@@ -81,7 +80,6 @@ git clone https://github.com/mahnoor-shahbaz-se/atm-interface-java.git
 ---
 
 ### ✅ Step 3 — Go Into the Project Folder
-
 ```bash
 cd atm-interface-java
 ```
@@ -89,7 +87,6 @@ cd atm-interface-java
 ---
 
 ### ✅ Step 4 — Compile All Files
-
 ```bash
 javac ATM_Interface/*.java
 ```
@@ -97,7 +94,6 @@ javac ATM_Interface/*.java
 ---
 
 ### ✅ Step 5 — Run the Program
-
 ```bash
 java ATM_Interface.Main
 ```
@@ -129,3 +125,5 @@ java ATM_Interface.Main
 
 **Mahnoor Shahbaz**
 🔗 [LinkedIn](https://www.linkedin.com/in/mahnoor-shahbaz-se/) &nbsp;|&nbsp; 📧 [mahnoorshahbaz86@gmail.com](mailto:mahnoorshahbaz86@gmail.com)
+
+More projects → [GitHub Profile](https://github.com/mahnoor-shahbaz-se)
