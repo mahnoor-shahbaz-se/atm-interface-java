@@ -1,28 +1,28 @@
-# 🏧 ATM Interface
+# ATM Interface
 
-A console-based Java ATM simulation implementing the **State Design Pattern** with secure PIN authentication, deposits, withdrawals, balance inquiry, and transaction history.
-
----
-
-## 📸 Sample Output
-
-<img width="632" height="1847" alt="carbon (5)" src="https://github.com/user-attachments/assets/d451f843-b1d2-484d-b539-77647620baa0" />
+A console-based Java ATM simulation implementing the State Design Pattern with secure PIN authentication, deposits, withdrawals, balance inquiry, and transaction history.
 
 ---
 
-## ✨ Features
+## Sample Output
 
-- 🔐 **PIN authentication** — 3 attempts before card ejection
-- 💰 **Deposit & Withdrawal** — with balance validation
-- 📋 **Transaction history** — tracks all account activity
-- 💳 **Balance inquiry** — formatted account summary
-- 🔄 **State Design Pattern** — Idle, HasCard, Authenticated states
-- ✅ **Input validation** — handles invalid inputs gracefully
-- 👥 **Multiple accounts** — supports multiple bank accounts
+<img width="632" height="1847" alt="Sample console output" src="https://github.com/user-attachments/assets/d451f843-b1d2-484d-b539-77647620baa0" />
 
 ---
 
-## 🏗️ Project Structure
+## Features
+
+- **PIN authentication** — 3 attempts before card ejection
+- **Deposit & withdrawal** — with balance validation
+- **Transaction history** — tracks all account activity
+- **Balance inquiry** — formatted account summary
+- **State Design Pattern** — Idle, HasCard, Authenticated states
+- **Input validation** — handles invalid inputs gracefully
+- **Multiple accounts** — supports multiple bank accounts
+
+---
+
+## Project Structure
 
 ```
 ATM_Interface/
@@ -33,10 +33,9 @@ ATM_Interface/
 |-- ATM_States.java        - IdleState, HasCardState, AuthenticatedState
 |-- BankAccount.java       - Account data, PIN validation, transaction history
 ```
-
 ---
 
-## 🎯 Design Pattern Used
+## Design Pattern Used
 
 This project implements the **State Design Pattern**:
 
@@ -48,7 +47,7 @@ This project implements the **State Design Pattern**:
 
 ---
 
-## 🛠️ Tech & Concepts Used
+## Tech & Concepts Used
 
 | Concept | Applied |
 |--------|---------|
@@ -61,46 +60,37 @@ This project implements the **State Design Pattern**:
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
-### ✅ Step 1 — Install Java (One Time Only)
-1. Go to 👉 https://www.java.com/en/download/
+**Step 1 — Install Java (one time only)**
+1. Go to [java.com/en/download](https://www.java.com/en/download/)
 2. Click **Download Java**
 3. Install it like any normal program (Next → Next → Finish)
-4. **Restart your computer** after installing
+4. Restart your computer after installing
 
----
+**Step 2 — Download the project**
 
-### ✅ Step 2 — Download the Project
-Open **Command Prompt** (search CMD in Windows search bar) and paste this:
+Open Command Prompt (search CMD in Windows search bar) and run:
 ```bash
 git clone https://github.com/mahnoor-shahbaz-se/atm-interface-java.git
 ```
 
----
-
-### ✅ Step 3 — Go Into the Project Folder
+**Step 3 — Go into the project folder**
 ```bash
 cd atm-interface-java
 ```
 
----
-
-### ✅ Step 4 — Compile All Files
+**Step 4 — Compile all files**
 ```bash
 javac ATM_Interface/*.java
 ```
 
----
-
-### ✅ Step 5 — Run the Program
+**Step 5 — Run the program**
 ```bash
 java ATM_Interface.Main
 ```
 
----
-
-### 🔑 Test Account Details
+**Test account details**
 
 | Field | Value |
 |-------|-------|
@@ -111,7 +101,7 @@ java ATM_Interface.Main
 
 ---
 
-## 🔮 Future Improvements
+## Future Improvements
 
 - [ ] Multiple account switching at ATM
 - [ ] Card block after failed attempts
@@ -121,9 +111,7 @@ java ATM_Interface.Main
 
 ---
 
-## 👩‍💻 Author
+## Author
 
 **Mahnoor Shahbaz**
-🔗 [LinkedIn](https://www.linkedin.com/in/mahnoor-shahbaz-se/) &nbsp;|&nbsp; 📧 [mahnoorshahbaz86@gmail.com](mailto:mahnoorshahbaz86@gmail.com)
-
-More projects → [GitHub Profile](https://github.com/mahnoor-shahbaz-se)
+[LinkedIn](https://www.linkedin.com/in/mahnoor-shahbaz-se/) &nbsp;|&nbsp; [Email](mailto:mahnoorshahbaz86@gmail.com) 
